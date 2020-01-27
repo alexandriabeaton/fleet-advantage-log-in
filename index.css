@@ -1,0 +1,142 @@
+body {
+    background-image: 
+      /*black overlay*/
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      /*bg image- mirrored*/
+      url("https://i.imgur.com/oI3vxrp.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      font-weight: normal;
+      color: rgb(116, 116, 116);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-size: 1rem;
+  }
+  
+  .form-container {
+      margin: 0 auto;
+      font-family: 'Raleway', sans-serif;
+  }
+  
+  .form-row {
+      justify-content: center;
+      margin: 0 auto;
+  }
+  
+  .form-col {
+      background-color: rgb(255, 255, 255);
+      -webkit-box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.6);
+      -moz-box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.6);
+      box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.6);
+      -webkit-border-radius: 5px 5px 5px 5px;
+      border-radius: 5px 5px 5px 5px;
+      margin-top: 75px;
+      margin-bottom: 75px;
+  }
+  
+  img {
+    width: 55%;
+    height: 55%;
+  }
+  
+  .img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  span {
+    font-size: 1.8rem;
+  }
+  
+  .headers {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      text-align: center;
+      font-size: 1.5rem;
+      color: #008ec4;
+      color: rgb(116, 116, 116);
+      font-weight: bold;
+  }
+  
+  label {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: left;
+    color: rgb(116, 116, 116);
+    text-transform: uppercase;
+  }
+  
+  .asterisk {
+    color: rgb(122, 192, 65);
+    vertical-align: top;
+    font-size: 0.2rem;
+    padding-top: 0.2rem;
+  }
+  
+  .log-in-button, .birthday, #first_name, #last_name, input {
+      width: 80%;
+      border: 1px solid rgb(230, 230, 230);
+      -webkit-border-radius: 5px 5px 5px 5px;
+      border-radius: 5px 5px 5px 5px;
+      margin-left: 10%;
+      margin-bottom: 10px;
+      text-align: left;
+      color: rgb(116, 116, 116);
+      background-color: white;
+      justify-content: center;
+  }
+
+  .birthday {
+    font-size: 0.9rem;
+    margin-left: 0px;
+    padding: 6px;
+    color: rgb(180, 180, 180);
+  }
+
+  .form-control::-webkit-input-placeholder {
+    color: rgb(180, 180, 180);
+  }
+
+  ::-webkit-input-placeholder, ::-moz-placeholder, :-ms-input-placeholder, :-moz-placeholder  { /* Chrome/Opera/Safari */
+    color: rgb(180, 180, 180);
+    font-style: italic;
+  }
+
+  .signin-button {
+      background-color: #008ec4;
+      color: white;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-left: 0px;
+  }
+  
+  .signin-button:hover{
+    background-color: rgb(122,192,65);
+  }
+  
+  .button-center {
+    text-align: center;
+  }
+  
+  .std-text {
+    font-size: 1rem;
+    margin-bottom: 40px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+  }
+  
+  .sign-up-link, .sign-up-link:hover {
+    color: rgb(122, 192, 65);
+  }
+  
